@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #00856f;
+  --headline: #212529;
+  --paragraph: #495057;
+
+  --brand-beige: #fffaf1;
+
+  font-size: 62.5%; /* Define standard font-size to 10px making easier to use rem for accessibility*/
+}
+
+body {
+  font-family: 'DM Sans';
+
+  text-align: center;
+}
+
+header {
+  margin-top: 4.1rem;
+  width: 37.5rem;
+  margin-inline: auto;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: var(--headline);
+  line-height: 130%;
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--paragraph);
+  margin-bottom: 3.2rem;
+}
+
+button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4em;
+
+  margin-bottom: 6rem;
+
+  height: 6.2rem;
+  width: 26.3rem;
+
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-inline: auto;
+}
+
+.stats {
+  width: 32.7rem;
+  height: 47rem;
+
+  margin-inline: auto;
+
+  background-color: var(--brand-beige);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.stat p {
+  margin: 0;
+}
+
+.stat h3 {
+  font-size: 4.8rem;
+  color: var(--headline);
+  line-height: 130%;
+
+  margin-bottom: 0.4rem;
+}
